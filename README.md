@@ -1,20 +1,25 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# みかんプロジェクト公式サイト
 
-# Run and deploy your AI Studio app
+株式会社みかんプロジェクトの公式ウェブサイトのソースコードです。
 
-This contains everything you need to run your app locally.
+## ローカルで動かす
 
-View your app in AI Studio: https://ai.studio/apps/drive/1_fhKOZnuStgAekw7ykYYbNL3sQ2yfwh8
+**必要なもの:** Node.js
 
-## Run Locally
+1. 依存関係をインストールする
+   ```bash
+   npm install
+   ```
+2. 開発サーバーを起動する
+   ```bash
+   npm run dev
+   ```
+3. ブラウザで http://localhost:5173/ を開く
 
-**Prerequisites:**  Node.js
+## 本番用ビルド
 
+```bash
+npm run build
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+`dist` フォルダに公開用ファイルが生成されます。
