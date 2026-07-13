@@ -160,6 +160,7 @@ const WorkRow: React.FC<{ item: WorkItem }> = ({ item }) => (
             <div className="flex flex-col sm:flex-row sm:items-center">
               <span className="text-xs text-black font-bold block sm:inline">
                 {item.categoryLabel === 'NHK 番組' && item.title.includes('すべてのもの') ? 'NHK オンデマンドでご覧いただけます（有料）' : 
+                 item.categoryLabel === 'NHK 番組' && item.date.includes('2026.6') ? '2027年6月まで NHK オンデマンドでご覧いただけます（有料）' : 
                  item.categoryLabel === 'NHK 番組' && item.date.includes('2025.9') ? '2026年9月まで NHK オンデマンドでご覧いただけます（有料）' : 
                  item.categoryLabel === 'NHK 番組' && item.date.includes('2025.1') ? '関連リンク' : 
                  item.categoryLabel === 'NHK 番組' && item.date.includes('2024.1') ? '関連リンク' : 
