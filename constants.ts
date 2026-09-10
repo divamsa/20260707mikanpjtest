@@ -115,7 +115,7 @@ export const WORKS_DATA: WorkItem[] = [
     title: `国立ハンセン病資料館 DVD 「知っていますか？ ハンセン病問題」`,
     description: `国の政策によって世間の偏見差別にさらされ、長く苦難の道を歩いてきた人たちがいるー。ハンセン病について、医学、歴史、現在の課題まで、基本的な知識を、多摩全生園で暮らす山内きみ江さんの語りを軸に、わかりやすくまとめたもの。`,
     image: 'https://res.cloudinary.com/dbyxjlzmt/image/upload/v1769684090/%E5%9B%B38_doxl9r.jpg', 
-    link: `https://www.bing.com/videos/riverview/relatedvideo?q=%e7%9f%a5%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b+%e3%83%8f%e3%83%b3%e3%82%bb%e3%83%b3%e7%97%85%e5%95%8f%e9%a1%8c&refig=693a781d7f4d481f8d0a84e99f761703&pc=LCTS&pq=%e7%9f%a5%e3%81%a3%e3%81%a6%e3%81%84%e3%81%be%e3%81%99%e3%81%8b%e3%80%80%e3%81%af%e3%82%93%e3%81%9b%e3%82%93&cvid=693a781d7f4d481f8d0a84e99f761703&ghc=0&ntb=1`,
+    link: `https://www.youtube.com/watch?v=5GgIcVND9LI`,
     linkText: `国立ハンセン病資料館ユーチューブ`
   }
 ];
