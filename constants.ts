@@ -19,8 +19,8 @@ export const WORKS_DATA: WorkItem[] = [
     title: `「病児の家族を生きる　～お母さん食堂の1年～」`,
     description: `新宿で、子どもの入院に付き添う家族にお弁当を届ける人がいる。食事も満足に取れず、体調を崩す家族は半数以上。その「お母さん食堂」は、子どもを亡くした親たちにも、出会いの場としての料理教室を開く。様々な家族の日々を見つめた。`,
     image: '/works/byouji-kazoku-2026.jpeg',
-    link: 'https://www.web.nhk/tv/an/etv21c/pl/series-tep-M2ZWLQ6RQP/ep/6M1PRGY44L',
-    linkText: `NHKオンデマンド`
+    link: 'https://www.nhk-ondemand.jp/goods/G2026157944SA000/',
+    linkText: `病児の家族を生きる　NHKオンデマンド`
   },
   {
     id: '1',
